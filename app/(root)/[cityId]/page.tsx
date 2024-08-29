@@ -65,7 +65,7 @@ const page = ({ params }: { params: { cityId: string } }) => {
             <WeatherCondition
               title="Wind Direction"
               icon={FaCompass}
-              data={weatherData.rainIntensity}
+              data={weatherData.windDirection}
               unit="°"
               classNames="lg:w-1/2"
             />
@@ -73,7 +73,7 @@ const page = ({ params }: { params: { cityId: string } }) => {
             <WeatherCondition
               title="Wind Speed"
               icon={FaWind}
-              data={weatherData.rainIntensity}
+              data={weatherData.windSpeed}
               unit="km/h"
               classNames="lg:w-1/2"
             />
