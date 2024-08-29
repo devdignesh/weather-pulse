@@ -65,8 +65,8 @@ const page = ({ params }: { params: { cityId: string } }) => {
             <WeatherCondition
               title="Wind Direction"
               icon={FaCompass}
-              data={weatherData.windDirection}
-              unit="°"
+              data={Math.round(weatherData.windDirection ?? 0)}
+              unit="deg"
               classNames="lg:w-1/2"
             />
 

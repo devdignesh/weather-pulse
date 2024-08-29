@@ -37,7 +37,7 @@ const TodayWeather = ({
           <div className="py-6 px-5 h-full flex flex-col justify-between">
             <div className="flex flex-row items-center justify-between">
               <span className="text-black font-semibold font-aldrich text-[42px] md:text-[52px] pt-2">
-                {data.temperature || "0"}°
+                {Math.round(data.temperature ?? 0)}°C
               </span>
             </div>
             <div className="mt-5 flex flex-row space-x-2">
