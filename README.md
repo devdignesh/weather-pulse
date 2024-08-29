@@ -6,12 +6,12 @@ Build weather application using Nextjs 14, TailwindCSS, Redux toolkit and API of
 - Quick Links : Provided a city quick links to get weather information faster.
 - Weather information : Temperature, Humidity, Rain Accumulation, Rain Intensity, Wind Direction etc.
 
-## How to Run the Project
+## How to run the project
  
 1. Clone the repository
 
  ```bash
-git 
+git clone https://github.com/devdignesh/weather-pulse.git
 npm install
 ```
 
@@ -26,5 +26,5 @@ NEXT_PUBLIC_WEATHER_API_KEY=Your_API_Key
 ```bash
 npm run dev
 ```
-
-API would be used to get weather data in a locality. You can view the list of city and [locality IDs](https://b.zmtcdn.com/data/file_assets/65fa362da3aa560a92f0b8aeec0dfda31713163042.pdf)
+### Get weather data
+API would be used to get weather data using locality. You can view the list of city and [locality IDs](https://b.zmtcdn.com/data/file_assets/65fa362da3aa560a92f0b8aeec0dfda31713163042.pdf)
