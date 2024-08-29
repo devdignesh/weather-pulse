@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# WeatherPulse 🌦️
+Build weather application using Nextjs 14, TailwindCSS, Redux toolkit and API of [Weather Union](https://www.weatherunion.com/dashboard/#tag/locality-based/GET/get_locality_weather_data) By Zomato
 
-## Getting Started
+## Features
+- Search city/area: Search city to get current weather information.
+- Quick Links : Provided a city quick links to get weather information faster.
+- Weather information : Temperature, Humidity, Rain Accumulation, Rain Intensity, Wind Direction etc.
 
-First, run the development server:
+## How to Run the Project
+ 
+1. Clone the repository
+
+ ```bash
+git 
+npm install
+```
+
+2. Create the `.env` and update the variables.
+
+```bash
+NEXT_PUBLIC_WEATHER_API_KEY=Your_API_Key
+```
+
+3. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+API would be used to get weather data in a locality. You can view the list of city and [locality IDs](https://b.zmtcdn.com/data/file_assets/65fa362da3aa560a92f0b8aeec0dfda31713163042.pdf)
